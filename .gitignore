@@ -1,0 +1,27 @@
+# Elixir / Mix
+/_build/
+/deps/
+/cover/
+/doc/
+/.fetch
+erl_crash.dump
+*.ez
+
+# Test / analysis artifacts
+/.elixir_ls/
+/.lexical/
+/.dialyzer_plt
+/.dialyzer_plt.hash
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local runtime state
+/tmp/
